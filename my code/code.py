@@ -26,3 +26,9 @@ sum=math+science+hindi+english
 print("SUM :",sum)
 percentage= sum/400*100
 print("PERCENTAGE :",percentage)
+
+
+# project 1
+a=20
+square=a**2
+print("SQUARE :",square)
