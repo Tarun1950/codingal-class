@@ -32,3 +32,27 @@ print("PERCENTAGE :",percentage)
 a=20
 square=a**2
 print("SQUARE :",square)
+
+# activity 1
+math=72
+science=68
+english=80
+computer=90
+sum=math+science+english+computer
+print("SUM :",sum)
+average=sum/4
+print("AVERAGE :",average)
+
+#activity 2
+principal=5000
+rate=5
+time=3
+si=(principal*rate*time)/100
+print("SIMPLE INTEREST :",si)
+# activity 3
+amount=1200
+discount=20
+dis_amount=(amount*discount)/100
+print("DISCOUNT AMOUNT :",dis_amount)
+sneha_haw_to_pay=amount-dis_amount
+print("SNEHA HAVE TO PAY :",sneha_haw_to_pay)
