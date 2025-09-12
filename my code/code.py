@@ -130,7 +130,7 @@ else:
 
 # Activity-4(IF-ELSE Condition)
 
-nuo=4
+no=4
 if (num%2)==0:
     print("num is even")
 else:
@@ -142,3 +142,23 @@ if temperature > 30:
     print("It's summertime! Have some cold drinks.")
 else:
     print("Not too hot, enjoy your day normally!")
+# project 2 (odd even flowchart)
+print("Welcome to Python Programming!")
+
+# 2. Variables
+name = "tarun"
+age = 17
+print("My name is", name, "and I am", age, "years old.")
+
+# 3. Simple calculation
+a = 10
+b = 5
+print("Sum of a + b =", a + b)
+
+# 4. Odd-Even Program
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print(num, "is Even")
+else:
+    print(num, "is Odd")
