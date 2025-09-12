@@ -130,8 +130,15 @@ else:
 
 # Activity-4(IF-ELSE Condition)
 
-num=12
+nuo=4
 if (num%2)==0:
     print("num is even")
 else:
     print("num is odd")
+
+#  project 1 (summmer time)
+
+if temperature > 30:
+    print("It's summertime! Have some cold drinks.")
+else:
+    print("Not too hot, enjoy your day normally!")
