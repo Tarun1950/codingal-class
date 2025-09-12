@@ -56,3 +56,17 @@ dis_amount=(amount*discount)/100
 print("DISCOUNT AMOUNT :",dis_amount)
 sneha_haw_to_pay=amount-dis_amount
 print("SNEHA HAVE TO PAY :",sneha_haw_to_pay)
+# project 2
+# Store five different dates in separate variables
+date1="12/05/2020"
+date2="23/08/2021"
+date3="15/11/2019"
+date4="01/01/2022"
+date5="30/09/2023"
+
+# Print the dates
+print("Date 1:", date1)
+print("Date 2:", date2)
+print("Date 3:", date3)
+print("Date 4:", date4)
+print("Date 5:", date5)
