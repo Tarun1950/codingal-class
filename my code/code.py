@@ -70,3 +70,68 @@ print("Date 2:", date2)
 print("Date 3:", date3)
 print("Date 4:", date4)
 print("Date 5:", date5)
+# project 3
+
+# Take user input
+name = input("Enter your name: ")
+city = input("Enter your city: ")
+
+# Concatenation
+greeting = "Hello " + name + " from " + city + "!"
+print("\n" + greeting)
+
+# Length of string
+print("Length of your name:", len(name))
+
+# Convert cases
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Title case:", name.title())
+
+# Indexing and slicing
+print("First letter of your name:", name[0])
+print("Last letter of your name:", name[-1])
+print("First 3 letters of your name:", name[:3])
+
+# Check if string contains something
+if "a" in name.lower():
+    print("Your name contains the letter 'a'.")
+else:
+    print("Your name does not contain the letter 'a'.")
+
+# Replace operation
+new_city = city.replace("a", "@")
+print("Your city name after replacement:", new_city)
+
+# Activity-1 (IF-ELSE Condition)
+num=3
+if num>0:
+    print("num is positive", num)
+
+num=-3
+if num>0:
+    print("num is  not positive", num)
+    
+    
+# Activity-2 (IF-ELSE Condition)
+actual_amount=100
+sales_amount=120
+if (sales_amount> actual_amount):
+    print("Profit")
+else:
+    print("Loss")
+
+# Activity-3(IF-ELSE Condition)
+i=10
+if(i<15):
+    print("i is smaller than 15")
+else:
+    print("i is greater than 15")
+
+# Activity-4(IF-ELSE Condition)
+
+num=12
+if (num%2)==0:
+    print("num is even")
+else:
+    print("num is odd")
